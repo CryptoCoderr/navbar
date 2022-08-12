@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/ahp2efo.css");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+*{
+    font-family: chantal;
+}
+
+@media only screen and (min-width: 900px)   {
+    #tab-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 899px)   {
+    #desktop-nav{
+        display: none;
+    }
+}
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+   
+    
+}
+#tab-nav{
+    background-image: url("./nav-skin.png") !important;
+    height: 150px !important;
+    background-color: #D3D1A6;
+}
+.offcanvas{
+    background-color: #C5C1AD !important;
+}
+.navbar-nav{
+    text-align: center;
+}
